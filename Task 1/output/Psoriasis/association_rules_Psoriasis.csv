@@ -1,0 +1,51 @@
+antecedents,consequents,antecedent support,consequent support,support,confidence,lift,representativity,leverage,conviction,zhangs_metric,jaccard,certainty,kulczynski
+frozenset({'skin_peeling'}),frozenset({'nail_abnormalities'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'nail_abnormalities'}),frozenset({'skin_peeling'}),1.0,1.0,1.0,1.0,1.0,1.0,0.0,inf,0.0,1.0,0.0,1.0
+frozenset({'joint_pain'}),frozenset({'nail_abnormalities'}),0.95,1.0,0.95,1.0,1.0,1.0,0.0,inf,0.0,0.95,0.0,0.975
+frozenset({'joint_pain'}),frozenset({'skin_peeling'}),0.95,1.0,0.95,1.0,1.0,1.0,0.0,inf,0.0,0.95,0.0,0.975
+frozenset({'skin_rash'}),frozenset({'nail_abnormalities'}),0.95,1.0,0.95,1.0,1.0,1.0,0.0,inf,0.0,0.95,0.0,0.975
+frozenset({'skin_rash'}),frozenset({'skin_peeling'}),0.95,1.0,0.95,1.0,1.0,1.0,0.0,inf,0.0,0.95,0.0,0.975
+"frozenset({'joint_pain', 'skin_peeling'})",frozenset({'nail_abnormalities'}),0.95,1.0,0.95,1.0,1.0,1.0,0.0,inf,0.0,0.95,0.0,0.975
+"frozenset({'joint_pain', 'nail_abnormalities'})",frozenset({'skin_peeling'}),0.95,1.0,0.95,1.0,1.0,1.0,0.0,inf,0.0,0.95,0.0,0.975
+frozenset({'joint_pain'}),"frozenset({'skin_peeling', 'nail_abnormalities'})",0.95,1.0,0.95,1.0,1.0,1.0,0.0,inf,0.0,0.95,0.0,0.975
+"frozenset({'skin_peeling', 'skin_rash'})",frozenset({'nail_abnormalities'}),0.95,1.0,0.95,1.0,1.0,1.0,0.0,inf,0.0,0.95,0.0,0.975
+"frozenset({'nail_abnormalities', 'skin_rash'})",frozenset({'skin_peeling'}),0.95,1.0,0.95,1.0,1.0,1.0,0.0,inf,0.0,0.95,0.0,0.975
+frozenset({'skin_rash'}),"frozenset({'skin_peeling', 'nail_abnormalities'})",0.95,1.0,0.95,1.0,1.0,1.0,0.0,inf,0.0,0.95,0.0,0.975
+"frozenset({'joint_pain', 'skin_rash'})",frozenset({'nail_abnormalities'}),0.9,1.0,0.9,1.0,1.0,1.0,0.0,inf,0.0,0.9000000000000001,0.0,0.95
+"frozenset({'joint_pain', 'skin_rash'})",frozenset({'skin_peeling'}),0.9,1.0,0.9,1.0,1.0,1.0,0.0,inf,0.0,0.9000000000000001,0.0,0.95
+"frozenset({'joint_pain', 'skin_peeling', 'skin_rash'})",frozenset({'nail_abnormalities'}),0.9,1.0,0.9,1.0,1.0,1.0,0.0,inf,0.0,0.9000000000000001,0.0,0.95
+"frozenset({'joint_pain', 'nail_abnormalities', 'skin_rash'})",frozenset({'skin_peeling'}),0.9,1.0,0.9,1.0,1.0,1.0,0.0,inf,0.0,0.9000000000000001,0.0,0.95
+"frozenset({'joint_pain', 'skin_rash'})","frozenset({'skin_peeling', 'nail_abnormalities'})",0.9,1.0,0.9,1.0,1.0,1.0,0.0,inf,0.0,0.9000000000000001,0.0,0.95
+frozenset({'nail_abnormalities'}),frozenset({'joint_pain'}),1.0,0.95,0.95,0.95,1.0,1.0,0.0,1.0,0.0,0.95,0.0,0.975
+frozenset({'skin_peeling'}),frozenset({'joint_pain'}),1.0,0.95,0.95,0.95,1.0,1.0,0.0,1.0,0.0,0.95,0.0,0.975
+frozenset({'nail_abnormalities'}),frozenset({'skin_rash'}),1.0,0.95,0.95,0.95,1.0,1.0,0.0,1.0,0.0,0.95,0.0,0.975
+frozenset({'skin_peeling'}),frozenset({'skin_rash'}),1.0,0.95,0.95,0.95,1.0,1.0,0.0,1.0,0.0,0.95,0.0,0.975
+"frozenset({'skin_peeling', 'nail_abnormalities'})",frozenset({'joint_pain'}),1.0,0.95,0.95,0.95,1.0,1.0,0.0,1.0,0.0,0.95,0.0,0.975
+frozenset({'skin_peeling'}),"frozenset({'joint_pain', 'nail_abnormalities'})",1.0,0.95,0.95,0.95,1.0,1.0,0.0,1.0,0.0,0.95,0.0,0.975
+frozenset({'nail_abnormalities'}),"frozenset({'joint_pain', 'skin_peeling'})",1.0,0.95,0.95,0.95,1.0,1.0,0.0,1.0,0.0,0.95,0.0,0.975
+"frozenset({'skin_peeling', 'nail_abnormalities'})",frozenset({'skin_rash'}),1.0,0.95,0.95,0.95,1.0,1.0,0.0,1.0,0.0,0.95,0.0,0.975
+frozenset({'skin_peeling'}),"frozenset({'nail_abnormalities', 'skin_rash'})",1.0,0.95,0.95,0.95,1.0,1.0,0.0,1.0,0.0,0.95,0.0,0.975
+frozenset({'nail_abnormalities'}),"frozenset({'skin_peeling', 'skin_rash'})",1.0,0.95,0.95,0.95,1.0,1.0,0.0,1.0,0.0,0.95,0.0,0.975
+frozenset({'nail_abnormalities'}),"frozenset({'joint_pain', 'skin_rash'})",1.0,0.9,0.9,0.9,1.0,1.0,0.0,1.0,0.0,0.9000000000000001,0.0,0.95
+frozenset({'skin_peeling'}),"frozenset({'joint_pain', 'skin_rash'})",1.0,0.9,0.9,0.9,1.0,1.0,0.0,1.0,0.0,0.9000000000000001,0.0,0.95
+"frozenset({'skin_peeling', 'nail_abnormalities'})","frozenset({'joint_pain', 'skin_rash'})",1.0,0.9,0.9,0.9,1.0,1.0,0.0,1.0,0.0,0.9000000000000001,0.0,0.95
+frozenset({'skin_peeling'}),"frozenset({'joint_pain', 'nail_abnormalities', 'skin_rash'})",1.0,0.9,0.9,0.9,1.0,1.0,0.0,1.0,0.0,0.9000000000000001,0.0,0.95
+frozenset({'nail_abnormalities'}),"frozenset({'joint_pain', 'skin_peeling', 'skin_rash'})",1.0,0.9,0.9,0.9,1.0,1.0,0.0,1.0,0.0,0.9000000000000001,0.0,0.95
+frozenset({'joint_pain'}),frozenset({'skin_rash'}),0.95,0.95,0.9,0.9473684210526316,0.9972299168975071,1.0,-0.0024999999999999467,0.950000000000002,-0.05263157894736738,0.9000000000000001,-0.052631578947366316,0.9473684210526316
+frozenset({'skin_rash'}),frozenset({'joint_pain'}),0.95,0.95,0.9,0.9473684210526316,0.9972299168975071,1.0,-0.0024999999999999467,0.950000000000002,-0.05263157894736738,0.9000000000000001,-0.052631578947366316,0.9473684210526316
+"frozenset({'joint_pain', 'nail_abnormalities'})",frozenset({'skin_rash'}),0.95,0.95,0.9,0.9473684210526316,0.9972299168975071,1.0,-0.0024999999999999467,0.950000000000002,-0.05263157894736738,0.9000000000000001,-0.052631578947366316,0.9473684210526316
+"frozenset({'nail_abnormalities', 'skin_rash'})",frozenset({'joint_pain'}),0.95,0.95,0.9,0.9473684210526316,0.9972299168975071,1.0,-0.0024999999999999467,0.950000000000002,-0.05263157894736738,0.9000000000000001,-0.052631578947366316,0.9473684210526316
+frozenset({'joint_pain'}),"frozenset({'nail_abnormalities', 'skin_rash'})",0.95,0.95,0.9,0.9473684210526316,0.9972299168975071,1.0,-0.0024999999999999467,0.950000000000002,-0.05263157894736738,0.9000000000000001,-0.052631578947366316,0.9473684210526316
+frozenset({'skin_rash'}),"frozenset({'joint_pain', 'nail_abnormalities'})",0.95,0.95,0.9,0.9473684210526316,0.9972299168975071,1.0,-0.0024999999999999467,0.950000000000002,-0.05263157894736738,0.9000000000000001,-0.052631578947366316,0.9473684210526316
+"frozenset({'joint_pain', 'skin_peeling'})",frozenset({'skin_rash'}),0.95,0.95,0.9,0.9473684210526316,0.9972299168975071,1.0,-0.0024999999999999467,0.950000000000002,-0.05263157894736738,0.9000000000000001,-0.052631578947366316,0.9473684210526316
+"frozenset({'skin_peeling', 'skin_rash'})",frozenset({'joint_pain'}),0.95,0.95,0.9,0.9473684210526316,0.9972299168975071,1.0,-0.0024999999999999467,0.950000000000002,-0.05263157894736738,0.9000000000000001,-0.052631578947366316,0.9473684210526316
+frozenset({'joint_pain'}),"frozenset({'skin_peeling', 'skin_rash'})",0.95,0.95,0.9,0.9473684210526316,0.9972299168975071,1.0,-0.0024999999999999467,0.950000000000002,-0.05263157894736738,0.9000000000000001,-0.052631578947366316,0.9473684210526316
+frozenset({'skin_rash'}),"frozenset({'joint_pain', 'skin_peeling'})",0.95,0.95,0.9,0.9473684210526316,0.9972299168975071,1.0,-0.0024999999999999467,0.950000000000002,-0.05263157894736738,0.9000000000000001,-0.052631578947366316,0.9473684210526316
+"frozenset({'joint_pain', 'skin_peeling', 'nail_abnormalities'})",frozenset({'skin_rash'}),0.95,0.95,0.9,0.9473684210526316,0.9972299168975071,1.0,-0.0024999999999999467,0.950000000000002,-0.05263157894736738,0.9000000000000001,-0.052631578947366316,0.9473684210526316
+"frozenset({'skin_peeling', 'nail_abnormalities', 'skin_rash'})",frozenset({'joint_pain'}),0.95,0.95,0.9,0.9473684210526316,0.9972299168975071,1.0,-0.0024999999999999467,0.950000000000002,-0.05263157894736738,0.9000000000000001,-0.052631578947366316,0.9473684210526316
+"frozenset({'joint_pain', 'skin_peeling'})","frozenset({'nail_abnormalities', 'skin_rash'})",0.95,0.95,0.9,0.9473684210526316,0.9972299168975071,1.0,-0.0024999999999999467,0.950000000000002,-0.05263157894736738,0.9000000000000001,-0.052631578947366316,0.9473684210526316
+"frozenset({'joint_pain', 'nail_abnormalities'})","frozenset({'skin_peeling', 'skin_rash'})",0.95,0.95,0.9,0.9473684210526316,0.9972299168975071,1.0,-0.0024999999999999467,0.950000000000002,-0.05263157894736738,0.9000000000000001,-0.052631578947366316,0.9473684210526316
+"frozenset({'skin_peeling', 'skin_rash'})","frozenset({'joint_pain', 'nail_abnormalities'})",0.95,0.95,0.9,0.9473684210526316,0.9972299168975071,1.0,-0.0024999999999999467,0.950000000000002,-0.05263157894736738,0.9000000000000001,-0.052631578947366316,0.9473684210526316
+"frozenset({'nail_abnormalities', 'skin_rash'})","frozenset({'joint_pain', 'skin_peeling'})",0.95,0.95,0.9,0.9473684210526316,0.9972299168975071,1.0,-0.0024999999999999467,0.950000000000002,-0.05263157894736738,0.9000000000000001,-0.052631578947366316,0.9473684210526316
+frozenset({'joint_pain'}),"frozenset({'skin_peeling', 'nail_abnormalities', 'skin_rash'})",0.95,0.95,0.9,0.9473684210526316,0.9972299168975071,1.0,-0.0024999999999999467,0.950000000000002,-0.05263157894736738,0.9000000000000001,-0.052631578947366316,0.9473684210526316
+frozenset({'skin_rash'}),"frozenset({'joint_pain', 'skin_peeling', 'nail_abnormalities'})",0.95,0.95,0.9,0.9473684210526316,0.9972299168975071,1.0,-0.0024999999999999467,0.950000000000002,-0.05263157894736738,0.9000000000000001,-0.052631578947366316,0.9473684210526316

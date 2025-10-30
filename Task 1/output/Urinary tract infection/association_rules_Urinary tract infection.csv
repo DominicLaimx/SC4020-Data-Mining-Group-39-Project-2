@@ -1,3 +1,4 @@
 antecedents,consequents,antecedent support,consequent support,support,confidence,lift,representativity,leverage,conviction,zhangs_metric,jaccard,certainty,kulczynski
-frozenset({'bladder_discomfort'}),frozenset({'urinary_discomfort'}),0.95,1.0,0.95,1.0,1.0,1.0,0.0,inf,0.0,0.95,0.0,0.975
-frozenset({'urinary_discomfort'}),frozenset({'bladder_discomfort'}),1.0,0.95,0.95,0.95,1.0,1.0,0.0,1.0,0.0,0.95,0.0,0.975
+frozenset({'bladder_discomfort'}),frozenset({'Urinary tract infection'}),0.023170731707317073,0.024390243902439025,0.023170731707317073,1.0,41.0,1.0,0.022605591909577633,inf,0.9987515605493134,0.95,1.0,0.975
+"frozenset({'bladder_discomfort', 'urinary_discomfort'})",frozenset({'Urinary tract infection'}),0.023170731707317073,0.024390243902439025,0.023170731707317073,1.0,41.0,1.0,0.022605591909577633,inf,0.9987515605493134,0.95,1.0,0.975
+frozenset({'bladder_discomfort'}),"frozenset({'Urinary tract infection', 'urinary_discomfort'})",0.023170731707317073,0.024390243902439025,0.023170731707317073,1.0,41.0,1.0,0.022605591909577633,inf,0.9987515605493134,0.95,1.0,0.975
